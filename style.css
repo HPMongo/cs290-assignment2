@@ -19,3 +19,19 @@ table tbody tr:first-child + tr + tr + tr + tr {background-color: #90ee90}
 
 /* set background color for dd element when hover over dt*/
 dl dt:hover + dd{background-color: purple}
+
+/* set div format*/
+.outer-content {
+	background-color: pink;
+	margin-top: 20px;
+	width: 75%;
+	text-align: center;
+}
+
+.inner-content {
+	background-color: blue;
+	width: 75%;
+	margin: auto;
+	font-size: 20px;
+	font-weight: normal;
+}
