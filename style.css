@@ -1,3 +1,4 @@
+/* table property */
 table , th, td {border: 1px solid black;}
 
 table tbody th {font-style: italic; font-weight: normal}
@@ -15,3 +16,6 @@ table tbody tr:first-child + tr + tr {background-color: #90ee90}
 table tbody tr:first-child + tr + tr + tr {background-color: #add8e6}
 
 table tbody tr:first-child + tr + tr + tr + tr {background-color: #90ee90}
+
+/* set background color for dd element when hover over dt*/
+dl dt:hover + dd{background-color: purple}
